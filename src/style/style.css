@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppings', sans-serif;
+}
+
+body {
+  
+  background-color: #deb6af;
+  height: 100vh;
+}
+
+#logo_redondo{
+  border-radius: 60%;
+  box-shadow: 0px 0px 8px rgb(193, 188, 188);
+  transform: scale(1.05);
+  transition: .2s;
+}
+
+.interface {
+  max-width: 1280px;
+  margin: 0 auto;
+  
+}
+
+.flex{
+  display: flex;
+}
+
+header {
+  padding: 40px 4%;
+}
+
+.interface{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+header > .interface{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+header a {
+  color: grey;
+  text-decoration: none;
+  display: inline-block;
+  transition: .2s;
+}
+
+header a:hover{
+  color: #fff ;
+  transform: scale(1.05);
+
+}
+
+header nav ul{
+  list-style-type: none;
+}
+
+header nav ul li{
+  display: inline-block;
+  padding: 0 40px;
+}
+
+.lista-item{
+  font-size: 20px ;
+  color: var(--cor-principal);
+}
+
+
+
+/* ===================================================== */
+
+section.topo-site{
+  padding: 40px 4% ;
+}
+
+section.topo-site .flex{
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+
+.topo-site h1{
+  color: #fff;
+  font-size: 42px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.topo-site .txt-site-topo p{
+  color: #fff;
+  margin: 40px 0;
+}
+
+#img_redonda{
+  border-radius: 5%;
+
+}
+
+/* ================================================= */
+
+.techs h2{
+  color: #fff;
+  font-size: 42px;
+  line-height: 1% ;
+  padding: 40px 4%;
+  text-align: left;
+  font-weight: 600;
+  font-size: 42px;
+}
+
+.techs .part-two p{
+  color: #fff;
+  margin: 40px 0;
+  padding: 40px 4%;
+  font-size: 30px;
+  line-height: 5px ;
+  text-align: left;
+ 
+}
+
+.techs .mytechs-box{
+  color: #fff;
+  padding: 45px;
+  line-height: 5px ;
+ 
+}
+
+.techs .mytechs-box i{
+  font-size: 70px;
+  color: gray;
+}
+
+footer {
+  background-color: gray;
+  color:#030303;
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+}
+
+
+.contacts a {
+  color: #050505;
+  font-size: 40px;
+  padding: 10px;
+
+ 
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
